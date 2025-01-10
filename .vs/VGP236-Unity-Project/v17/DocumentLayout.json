@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\LCV2343873\\Documents\\GitHub\\VGP236-Unity-Project\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C0CAB2B2-CFC7-D6AF-0E7E-B69A0EC87294}|Assembly-CSharp.csproj|c:\\users\\lcv2343873\\documents\\github\\vgp236-unity-project\\assets\\script\\playercontroll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0CAB2B2-CFC7-D6AF-0E7E-B69A0EC87294}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\playercontroll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C0CAB2B2-CFC7-D6AF-0E7E-B69A0EC87294}|Assembly-CSharp.csproj|c:\\users\\lcv2343873\\documents\\github\\vgp236-unity-project\\assets\\script\\movecloud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C0CAB2B2-CFC7-D6AF-0E7E-B69A0EC87294}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\movecloud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -19,6 +23,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "PlayerControll.cs",
+              "DocumentMoniker": "C:\\Users\\LCV2343873\\Documents\\GitHub\\VGP236-Unity-Project\\Assets\\Script\\PlayerControll.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\PlayerControll.cs",
+              "ToolTip": "C:\\Users\\LCV2343873\\Documents\\GitHub\\VGP236-Unity-Project\\Assets\\Script\\PlayerControll.cs",
+              "RelativeToolTip": "Assets\\Script\\PlayerControll.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAgwC0AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T02:26:57.235Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "MoveCloud.cs",
               "DocumentMoniker": "C:\\Users\\LCV2343873\\Documents\\GitHub\\VGP236-Unity-Project\\Assets\\Script\\MoveCloud.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\MoveCloud.cs",
