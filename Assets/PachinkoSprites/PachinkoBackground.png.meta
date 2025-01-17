@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      PachinkoBackground_0: 7663210068765609864
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
