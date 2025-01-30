@@ -7,7 +7,7 @@ public class PlayerMove : MonoBehaviour
     public string horizontalInputName; // Different for each player
 
     [Header("Jump Setting")]
-    public float jumpForce = 9f;
+    public float jumpForce = 5f;
     public LayerMask groundLayer;
     public string jumpButton;
 
@@ -23,7 +23,6 @@ public class PlayerMove : MonoBehaviour
     {
         HandleMovement();
         HandleIsJump();
-        Debug.Log("Are you there? " + isGround);
     }
 
     void HandleMovement()
@@ -40,7 +39,7 @@ public class PlayerMove : MonoBehaviour
 
     void HandleIsJump()
     {
-        isGround = Physics2D.OverlapCircle(transform.position + Vector3.down * 0.5f, 0.2f, groundLayer);
+        isGround = Physics2D.OverlapCircle(transform.position + Vector3.down * 1.1f, 0.2f, groundLayer);
         if (isGround && Input.GetButtonDown(jumpButton))
         {
             rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
@@ -50,6 +49,6 @@ public class PlayerMove : MonoBehaviour
     private void OnDrawGizmos()
     {
         Gizmos.color = Color.red;
-        Gizmos.DrawWireSphere(transform.position + Vector3.down * 1.2f, 0.2f);
+        Gizmos.DrawWireSphere(transform.position + Vector3.down * 1.1f, 0.2f);
     }
 }
