@@ -66,6 +66,7 @@
     <Compile Include="Assets\PachinkoScript\GameManager.cs" />
     <Compile Include="Assets\Script\MoveCloud.cs" />
     <Compile Include="Assets\PachinkoScript\MoveObstacle.cs" />
+    <Compile Include="Assets\2DCoop_Script\PlayerMove.cs" />
     <Compile Include="Assets\PachinkoScript\BallSpawner.cs" />
     <Compile Include="Assets\PachinkoScript\Slot_1.cs" />
     <Compile Include="Assets\PachinkoScript\Slot_5.cs" />
