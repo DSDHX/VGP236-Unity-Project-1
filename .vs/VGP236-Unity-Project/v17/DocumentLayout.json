@@ -1,9 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\LCV2343873\\Documents\\GitHub\\VGP236-Unity-Project\\",
+  "WorkspaceRootPath": "C:\\Users\\23259\\Documents\\GitHub\\VGP236-Unity-Project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C0CAB2B2-CFC7-D6AF-0E7E-B69A0EC87294}|Assembly-CSharp.csproj|c:\\users\\lcv2343873\\documents\\github\\vgp236-unity-project\\assets\\2dcoop_script\\playermove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C0CAB2B2-CFC7-D6AF-0E7E-B69A0EC87294}|Assembly-CSharp.csproj|c:\\users\\23259\\documents\\github\\vgp236-unity-project\\assets\\2dcoop_script\\interaction_1target.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0CAB2B2-CFC7-D6AF-0E7E-B69A0EC87294}|Assembly-CSharp.csproj|solutionrelative:assets\\2dcoop_script\\interaction_1target.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0CAB2B2-CFC7-D6AF-0E7E-B69A0EC87294}|Assembly-CSharp.csproj|c:\\users\\23259\\documents\\github\\vgp236-unity-project\\assets\\2dcoop_script\\interaction_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0CAB2B2-CFC7-D6AF-0E7E-B69A0EC87294}|Assembly-CSharp.csproj|solutionrelative:assets\\2dcoop_script\\interaction_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0CAB2B2-CFC7-D6AF-0E7E-B69A0EC87294}|Assembly-CSharp.csproj|C:\\Users\\23259\\Documents\\GitHub\\VGP236-Unity-Project\\assets\\2dcoop_script\\playermove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C0CAB2B2-CFC7-D6AF-0E7E-B69A0EC87294}|Assembly-CSharp.csproj|solutionrelative:assets\\2dcoop_script\\playermove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -14,20 +22,49 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "PlayerMove.cs",
-              "DocumentMoniker": "C:\\Users\\LCV2343873\\Documents\\GitHub\\VGP236-Unity-Project\\Assets\\2DCoop_Script\\PlayerMove.cs",
-              "RelativeDocumentMoniker": "Assets\\2DCoop_Script\\PlayerMove.cs",
-              "ToolTip": "C:\\Users\\LCV2343873\\Documents\\GitHub\\VGP236-Unity-Project\\Assets\\2DCoop_Script\\PlayerMove.cs",
-              "RelativeToolTip": "Assets\\2DCoop_Script\\PlayerMove.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAQwC4AAAAFAAAA",
+              "Title": "Interaction_1Target.cs",
+              "DocumentMoniker": "C:\\Users\\23259\\Documents\\GitHub\\VGP236-Unity-Project\\Assets\\2DCoop_Script\\Interaction_1Target.cs",
+              "RelativeDocumentMoniker": "Assets\\2DCoop_Script\\Interaction_1Target.cs",
+              "ToolTip": "C:\\Users\\23259\\Documents\\GitHub\\VGP236-Unity-Project\\Assets\\2DCoop_Script\\Interaction_1Target.cs",
+              "RelativeToolTip": "Assets\\2DCoop_Script\\Interaction_1Target.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwB0AAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-30T14:19:24.085Z",
+              "WhenOpened": "2025-02-06T18:23:04.375Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Interaction_1.cs",
+              "DocumentMoniker": "C:\\Users\\23259\\Documents\\GitHub\\VGP236-Unity-Project\\Assets\\2DCoop_Script\\Interaction_1.cs",
+              "RelativeDocumentMoniker": "Assets\\2DCoop_Script\\Interaction_1.cs",
+              "ToolTip": "C:\\Users\\23259\\Documents\\GitHub\\VGP236-Unity-Project\\Assets\\2DCoop_Script\\Interaction_1.cs",
+              "RelativeToolTip": "Assets\\2DCoop_Script\\Interaction_1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T18:03:52.227Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PlayerMove.cs",
+              "DocumentMoniker": "C:\\Users\\23259\\Documents\\GitHub\\VGP236-Unity-Project\\Assets\\2DCoop_Script\\PlayerMove.cs",
+              "RelativeDocumentMoniker": "Assets\\2DCoop_Script\\PlayerMove.cs",
+              "ToolTip": "C:\\Users\\23259\\Documents\\GitHub\\VGP236-Unity-Project\\Assets\\2DCoop_Script\\PlayerMove.cs",
+              "RelativeToolTip": "Assets\\2DCoop_Script\\PlayerMove.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwCAAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T14:19:24.085Z"
             }
           ]
         }

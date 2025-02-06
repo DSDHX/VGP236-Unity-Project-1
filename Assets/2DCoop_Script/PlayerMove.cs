@@ -13,18 +13,33 @@ public class PlayerMove : MonoBehaviour
 
     private Rigidbody2D rb;
     private bool isGround;
+    private Animator anim;
+    private bool isJumping;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        anim = GetComponent<Animator>();
     }
 
     void Update()
     {
         HandleMovement();
         HandleIsJump();
-    }
 
+        anim.SetFloat("Speed", Mathf.Abs(rb.linearVelocity.x));
+        anim.SetBool("IsGround", isGround);
+
+        // temp
+        if (!isGround && !isJumping)
+        {
+            isJumping = true;
+        }
+        if (isGround && isJumping)
+        {
+            isJumping = false;
+        }
+    }
     void HandleMovement()
     {
         float moveInput = Input.GetAxisRaw(horizontalInputName);
@@ -43,6 +58,18 @@ public class PlayerMove : MonoBehaviour
         if (isGround && Input.GetButtonDown(jumpButton))
         {
             rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
+        }
+
+        float moveInput = Input.GetAxisRaw(horizontalInputName);
+        rb.linearVelocity = new Vector2(moveInput * moveSpeed, rb.linearVelocity.y);
+
+        if (moveInput > 0)
+        {
+            transform.localScale = new Vector2(1, 1);
+        }
+        else if (moveInput < 0)
+        {
+            transform.localScale = new Vector2(-1, 1);
         }
     }
 
