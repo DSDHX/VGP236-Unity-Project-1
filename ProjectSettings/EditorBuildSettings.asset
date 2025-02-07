@@ -5,9 +5,15 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/TEST.unity
     guid: 973754d1b63579147843c6eef0375a0d
+  - enabled: 1
+    path: Assets/Scenes/2D_Cooperative_Game.unity
+    guid: f74d6a51aefc3684dad68d5082e8e4d6
+  - enabled: 1
+    path: Assets/Scenes/WinScene.unity
+    guid: 324884ed61dee204c9dd48b057fe5347
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
